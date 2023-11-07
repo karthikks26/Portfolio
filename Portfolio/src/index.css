@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply w-full h-full overflow-x-hidden;
+}
+
+.tech {
+  @apply w-[390px] h-[204.75px] object-contain my-3 text-center lg:w-[150px] lg:h-[150px];
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, #78682d, #6a00ff, #d4d4d2, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
