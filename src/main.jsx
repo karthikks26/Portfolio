@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {" "}
       <Routes>
         <Route index element={<App />} />
-        <Route path="/form-submitted" element={<FormSubmiited />} />
+        <Route path="form-submitted" element={<FormSubmiited />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
