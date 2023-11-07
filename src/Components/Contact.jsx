@@ -2,6 +2,9 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 
 const Contact = () => {
+  let url =
+    "https://portfolio-ihhtio371-karthikks26.vercel.app/form-submitted" ||
+    "http://localhost:5173/form-submitted";
   return (
     <>
       <h1 className="text-3xl text-center underline gradient-text">
@@ -52,11 +55,7 @@ const Contact = () => {
           <input type="hidden" name="_template" value="table"></input>
 
           <br />
-          <input
-            type="hidden"
-            name="_next"
-            value="http://localhost:5173/form-submitted"
-          />
+          <input type="hidden" name="_next" value={url} />
           <button
             type="submit"
             className=" bg-green-900 text-white px-3 py-1 w-[80%]"
