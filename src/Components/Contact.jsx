@@ -2,9 +2,6 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 
 const Contact = () => {
-  // let url =
-  // ||
-  //   "http://localhost:5173/form-submitted";
   return (
     <>
       <h1 className="text-3xl text-center underline gradient-text">
