@@ -54,7 +54,7 @@ const Contact = () => {
           <input type="hidden" name="_template" value="table"></input>
 
           <br />
-          <input type="hidden" name="_next" value={value2} />
+          {/* <input type="hidden" name="_next" value={value2} /> */}
           <button
             type="submit"
             className=" bg-green-900 text-white px-3 py-1 w-[80%]"
