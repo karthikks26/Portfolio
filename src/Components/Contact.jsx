@@ -3,8 +3,7 @@ import { Navigate } from "react-router-dom";
 
 const Contact = () => {
   let value1 = "http://localhost:5173/form-submitted";
-  let value2 =
-    "https://portfolio-ihhtio371-karthikks26.vercel.app/form-submitted";
+  let value2 = "https://portfolio-sxzs.vercel.app/form-submitted";
   return (
     <>
       <h1 className="text-3xl text-center underline gradient-text">
@@ -55,7 +54,7 @@ const Contact = () => {
           <input type="hidden" name="_template" value="table"></input>
 
           <br />
-          <input type="hidden" name="_next" value={value2 || value1} />
+          <input type="hidden" name="_next" value={value2} />
           <button
             type="submit"
             className=" bg-green-900 text-white px-3 py-1 w-[80%]"
