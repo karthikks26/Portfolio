@@ -2,8 +2,6 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 
 const Contact = () => {
-  let value1 = "http://localhost:5173/form-submitted";
-  let value2 = "https://portfolio-sxzs.vercel.app/form-submitted";
   return (
     <>
       <h1 className="text-3xl text-center underline gradient-text">
