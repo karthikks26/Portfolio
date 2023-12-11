@@ -2,7 +2,7 @@ import { createContext, useEffect, useState } from "react";
 
 export const context = createContext(null);
 
-const Layout = ({ children }) => {
+const MainLayout = ({ children }) => {
   const storedDarkMode = localStorage.getItem("darkMode") === "true";
 
   const [state, setState] = useState(storedDarkMode);
@@ -24,4 +24,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default MainLayout;

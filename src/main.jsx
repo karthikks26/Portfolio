@@ -4,11 +4,11 @@ import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FormSubmiited from "./FormSubmiited.jsx";
-import Layout from "./MainLayout.jsx";
+import MainLayout from "./MainLayout.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Layout>
+    <MainLayout>
       <BrowserRouter>
         {" "}
         <Routes>
@@ -16,6 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/form-submitted" element={<FormSubmiited />} />
         </Routes>
       </BrowserRouter>
-    </Layout>
+    </MainLayout>
   </React.StrictMode>
 );
