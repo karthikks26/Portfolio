@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import img from "../assets/photo.png";
 import { Sun, Moon } from "lucide-react";
 import { useContext } from "react";
-import { context } from "../layout";
+import { context } from "../MainLayout";
 import "animate.css/animate.css";
 
 const Main = () => {

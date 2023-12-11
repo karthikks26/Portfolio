@@ -11,7 +11,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
-import { context } from "./layout";
+import { context } from "./MainLayout";
 
 function App() {
   const { handleclick, state, setState } = useContext(context);
