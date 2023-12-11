@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../assets/photo.png";
+import { Sun, Moon } from "lucide-react";
+import { useContext } from "react";
+import { context } from "../layout";
+import "animate.css/animate.css";
 
 const Main = () => {
+  const { handleclick, state, setState } = useContext(context);
   return (
     <>
-      <nav className="  border-gray-300 border-b py-2">
-        <h2 className="text-xl  text-center animate-rotate-y animate-thrice">
-          <i>Karthik KS</i>
+      <nav className="  border-gray-300 border-b py-2 dark:border-none flex items-center ">
+        <h2 className="text-xl    animate-rotate-y animate-thrice dark:text-white mx-auto translate-x-6 ">
+          <i className="flex-1 text-center">Karthik KS</i>
         </h2>
+        <div className="mr-2 cursor-pointer " onClick={handleclick}>
+          {state ? <Sun /> : <Moon />}
+        </div>
       </nav>
       <div className="container flex flex-col justify-center items-center my-3  md:flex-row-reverse md:items-center  lg:justify-evenly">
         <div className="bg-yellow-400 rounded-full">
@@ -18,7 +26,7 @@ const Main = () => {
         </div>
         {/* Bio */}
         <div className=" text-center md:mx-10">
-          <h2 className=" font-bold text-4xl">
+          <h2 className=" font-bold text-4xl dark:text-white">
             {" "}
             Hi, I am <br />
             <span className="text-blue-600">Karthik Ks</span>

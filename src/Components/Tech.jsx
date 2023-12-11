@@ -15,8 +15,11 @@ const Tech = () => {
         Tech I know
       </h1>
       <div className="lg:flex lg:justify-between lg:items-center ">
-        <div className=" md:w-[600px] md:block md:mx-auto md:my-5 lg:ml-5 lg:w-[800px] ">
-          <img src={img} className="md:w-full   " />
+        <div className=" md:w-[600px] md:block md:mx-auto md:my-5 lg:ml-5 lg:w-[800px]  dark:rounded-full ">
+          <img
+            src={img}
+            className="md:w-full dark:bg-neutral-100 my-3  dark:rounded-full"
+          />
         </div>
 
         <Marquee className=" h-[200px] ">

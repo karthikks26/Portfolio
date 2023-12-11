@@ -6,7 +6,7 @@ const Projects = (props) => {
     <>
       <div className="md:w-[600px] md:block md:mx-auto md:my-3 lg:w-[350px]">
         <a href={link} target="_blank">
-          <div className="  shadow-2xl rounded-lg mx-7 my-4  ">
+          <div className="  shadow-2xl rounded-lg mx-7 my-4  dark:shadow-cyan-500 ">
             <div>
               <img src={img} />
             </div>
