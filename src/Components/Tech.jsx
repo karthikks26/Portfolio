@@ -18,7 +18,7 @@ const Tech = () => {
         <div className=" md:w-[600px] md:block md:mx-auto md:my-5 lg:ml-5 lg:w-[800px]  dark:rounded-full ">
           <img
             src={img}
-            className="md:w-full dark:bg-neutral-100 my-3  "
+            className="md:w-full dark:bg-neutral-100 my-3  dark:rounded-full"
           />
         </div>
 
