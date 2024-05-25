@@ -8,6 +8,7 @@ import tailwind from "../assets/tech/tailwind.png";
 import redux from "../assets/tech/redux.svg";
 import express from "../assets/tech/express.png";
 import mongo from "../assets/tech/mongo.png"
+import py from "../assets/tech/python.jpg"
 import Marquee from "react-fast-marquee";
 const Tech = () => {
   return (
@@ -34,6 +35,8 @@ const Tech = () => {
           <img src={redux} className="tech" />
           <img src={express} className="tech" />
           <img src={mongo} className="tech" />
+          <img src={py} className="tech" />
+
 
         </Marquee>
       </div>
