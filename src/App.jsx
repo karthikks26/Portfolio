@@ -1,6 +1,4 @@
 import { useContext, useState } from "react";
-
-import viteLogo from "/vite.svg";
 import "./App.css";
 import svg from "./assets/bg.svg";
 import Main from "./Components/Main";
